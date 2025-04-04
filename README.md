@@ -12,23 +12,23 @@ Like original cube engine, you need both runtime and developer package: **SDL1**
 
 On Distros like **Debian**
 
-`$sudo apt install build-essential cmake git libsdl1.2debian  libsdl1.2-dev libsdl-mixer1.2-dev libsdl-mixer1.2 libsdl-image1.2 libsdl-image1.2-dev freeglut3 freeglut3-dev x11proto-dev zlib1g-dev zlib1g`
+`$ sudo apt install build-essential cmake git libsdl1.2debian  libsdl1.2-dev libsdl-mixer1.2-dev libsdl-mixer1.2 libsdl-image1.2 libsdl-image1.2-dev freeglut3 freeglut3-dev x11proto-dev zlib1g-dev zlib1g`
 
 Clone the this repo:
 
-`$git clone https://github.com/eolandro/cube_legacy.git`
+`$ git clone https://github.com/eolandro/cube_legacy.git`
 
 Change to repo and create dir *build*
 
-`$cd cube_legacy`
+`$ cd cube_legacy`
 
-`$mkdir build`
+`$ mkdir build`
 
 Invoke cmake and make
 
-`$cmake ..`
+`$ cmake ..`
 
-`$make`
+`$ make`
 
 you will get **cube_client** and **cube_server**
 
@@ -67,19 +67,19 @@ Even it is a work in progress... It's possible to compile and run cube legacy in
 
 6. Clone the this repo:
    
-   `$git clone https://github.com/eolandro/cube_legacy.git`
+   `git clone https://github.com/eolandro/cube_legacy.git`
 
 7. Change to repo and create dir *build*
    
-   `$cd cube_legacy`
+   `cd cube_legacy`
    
-   `$mkdir build`
+   `mkdir build`
 
 8. Invoke cmake and make
    
-   `$cmake ..`
+   `cmake ..`
    
-   `$make`
+   `make`
 
 9. you will get **cube_client** and **cube_server** 
 
