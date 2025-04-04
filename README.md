@@ -38,10 +38,10 @@ Even it is a work in progress... It's possible to compile and run cube legacy in
 
 1. First you need X11.
    `pkg update`
-   `pkg install x11-repo``
+   `pkg install x11-repo`
 
 2. Now you need a vnc server (yes it works with vncserver)
-   `pkg install tigervnc``
+   `pkg install tigervnc`
 
 3. Desktop environment. At this time fluxbox
    `pkg install fluxbox`
